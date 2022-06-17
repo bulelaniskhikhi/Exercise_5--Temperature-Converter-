@@ -1,0 +1,82 @@
+*{
+overflow: hidden;
+}
+
+body {
+    background: white ;
+    color: #FFB6C1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#container {
+    text-align: center;
+    background-color: #EEC0C6;
+    background-image: linear-gradient(315deg, #EEC0C6 0%, #FFB6C1 74%);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 70px 20px grey;
+}
+.input-div {
+    display: inline-block;
+}
+span {
+    font-size: 26px;
+    color: #70757A;
+    line-height: 44px;
+    width: 27px;
+}
+label {
+    font-size: 24px;
+    color: white;
+}
+.inp {
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+}
+.formula {
+    position: relative;
+    top: 26px;
+}
+.for {
+    height: 15px;
+    font-size: 12px;
+    padding: 1px 3px 1.5px 3px;
+    color: #fff;
+    background-color: #000000;
+    float: left;
+    margin: 2px 8px 0 0;
+    border-radius: 2px;
+}
+.foo {
+    display: flex;
+    color: #3373B4;
+    margin-bottom: 2px;
+    padding: 2.5px 3px 1.5px 3px;
+}
+b {
+    color: black;
+}
+
+::placeholder{
+    font-size: 20px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
